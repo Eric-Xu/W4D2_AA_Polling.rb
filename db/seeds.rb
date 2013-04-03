@@ -67,7 +67,11 @@ Choice.create(choice: 'ch1', question_id: 9)
 Choice.create(choice: 'ch2', question_id: 9)
 Choice.create(choice: 'ch3', question_id: 9)
 Choice.create(choice: 'ch4', question_id: 9)
-Response.create(user_id: 1, choice_id: 2)
 
+Response.create(user_id: 1, choice_id: 1)
+Response.create(user_id: 1, choice_id: 2)
+Response.create(user_id: 2, choice_id: 1)
+Response.create(user_id: 2, choice_id: 2)
+Response.create(user_id: 3, choice_id: 2)
 
 
