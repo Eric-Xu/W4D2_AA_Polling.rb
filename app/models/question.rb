@@ -14,7 +14,4 @@ class Question < ActiveRecord::Base
 
     new_question
   end
-
-
-
 end

@@ -10,4 +10,6 @@ class Poll < ActiveRecord::Base
     questions << Question.generate(question, self.id, *choices)
   end
 
+
+
 end
