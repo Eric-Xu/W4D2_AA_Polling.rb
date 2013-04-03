@@ -5,4 +5,9 @@ class Poll < ActiveRecord::Base
 
   belongs_to :user
   has_many :questions
+
+  def add_question(question, *choices)
+    questions << Question.generate(question, self.id, *choices)
+  end
+
 end

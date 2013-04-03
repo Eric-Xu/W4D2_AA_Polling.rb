@@ -69,6 +69,5 @@ Choice.create(choice: 'ch3', question_id: 9)
 Choice.create(choice: 'ch4', question_id: 9)
 Response.create(user_id: 1, choice_id: 2)
 
-end
 
 

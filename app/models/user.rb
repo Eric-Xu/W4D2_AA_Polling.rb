@@ -5,4 +5,8 @@ class User < ActiveRecord::Base
   has_many :polls
   has_many :responses
   has_many :choices, :through => :responses
+
+  def add_poll(title)
+    polls << Poll.create(title: title)
+  end
 end
